@@ -1,14 +1,25 @@
-main {
+body {
   background-image: linear-gradient(to bottom right, #F3CA40, #F17105, #D11149);
   padding: 20px;
-  border: solid black;
 }
 
 h1 {
   text-align: center;
   color: #6610F2;
-  padding: 20px;
+  margin: 20px;
   font-size: 70px;
+}
+
+h2 {
+  text-align: center;
+  color: #6610F2;
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.301);
+  border-radius: 10px;;
+  padding: 20px;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #me-pic {
@@ -18,16 +29,27 @@ h1 {
   max-width: 200px;
   border-radius: 50%;
   border: solid 2px #D11149;
+  filter: hue-rotate(270deg);
   margin-left: auto;
   margin-right: auto;
 }
 
+p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #6610F2;
+  width: 40%;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255, 255, 255, 0.301);
+  padding: 20px;
+}
+
 .btn-box {
-  width: auto;
-  height: 60vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
 }
@@ -41,6 +63,7 @@ button {
   font-size: 20px;
   width: 200px;
   height: 80px;
+  margin: 20px;
   border-radius: 20px;
   background-image: linear-gradient(to bottom left, #1A8FE3, #6610F2);
   color: white;
@@ -48,4 +71,21 @@ button {
 
 button:hover {
   color: black;
+}
+
+.fa {
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  color: black;
+}
+
+footer {
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  background-image: linear-gradient(to right, #D11149, #F3CA40 );
+  height: 50px;
+  padding-top: 10PX;
+  border: solid 1px white;
 }
