@@ -1,0 +1,14 @@
+#me-pic {
+  display: block;
+  width: 30%;
+  height: 20;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-box {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
