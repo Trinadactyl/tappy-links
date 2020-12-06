@@ -1,14 +1,51 @@
+main {
+  background-image: linear-gradient(to bottom right, #F3CA40, #F17105, #D11149);
+  padding: 20px;
+  border: solid black;
+}
+
+h1 {
+  text-align: center;
+  color: #6610F2;
+  padding: 20px;
+  font-size: 70px;
+}
+
 #me-pic {
   display: block;
-  width: 30%;
-  height: 20;
+  width: auto;
+  height: auto;
+  max-width: 200px;
   border-radius: 50%;
+  border: solid 2px #D11149;
   margin-left: auto;
   margin-right: auto;
 }
 
 .btn-box {
-  height: 80vh;
+  width: auto;
+  height: 60vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  font-size: 20px;
+  width: 200px;
+  height: 80px;
+  border-radius: 20px;
+  background-image: linear-gradient(to bottom left, #1A8FE3, #6610F2);
+  color: white;
+}
+
+button:hover {
+  color: black;
 }
